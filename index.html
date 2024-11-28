@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Add Some CSS for Final Touch -->
+    <style>
+       html,a{
+        scroll-behavior: smooth;
+       text-decoration: none;
+       }
+    </style>
+</head>
+
+<body>
+    <!--? Information About this Website -->
+    <!-- Ye website ke pure html ke sath banao ga HTML ke purane version ko use kare jimse CSS nai hugi-->
+    <!-- background-color: #1d3557; -->
+    <!-- style="margin: 0 auto;" HTML ke new version me ye use huta he table ko center me lejane ke liye. -->
+
+    <!-- Start Header Section  -->
+
+    <table width="100%" bgcolor="#1d3557" cellspacing="0" border="0">
+        <tr>
+            <td>
+                <!-- Make Nested Table  -->
+                <table border="0" width="90%" align="center" cellpadding="10" cellspacing="0">
+                    <tr >
+                        <td>
+                            <font size="20" color="white">
+                                <strong>Zain Dev</strong>
+                            </font>
+                        </td>
+                        <td width="40%"></td>
+                        <td >
+                            <a href="#homeSection">
+                                <font color="white" size="4">Home</font>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="#serviceSection">
+                                <font color="white" size="4">Service</font>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="#skillSection">
+                                <font color="white" size="4">Skill</font>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="#teamSection">
+                                <font color="white" size="4">Team</font>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="#registerSection">
+                                <font color="white" size="4">Register</font>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="#contactSection">
+                                <font color="white" size="4">Contact</font>
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <!-- <header style="background-color: #1d3557; padding: 10px 0;">
+        <div style="max-width: 90%; margin: auto; display: flex; align-items: center; color: white;">
+            <div style="font-size: 24px; font-weight: bold; margin-right: auto;">
+                Zain Dev
+            </div>
+            <nav>
+                <a href="#homeSection" style="color: white; text-decoration: none; margin: 0 15px;">Home</a>
+                <a href="#serviceSection" style="color: white; text-decoration: none; margin: 0 15px;">Service</a>
+                <a href="#skillSection" style="color: white; text-decoration: none; margin: 0 15px;">Skill</a>
+                <a href="#teamSection" style="color: white; text-decoration: none; margin: 0 15px;">Team</a>
+                <a href="#registerSection" style="color: white; text-decoration: none; margin: 0 15px;">Register</a>
+                <a href="#contactSection" style="color: white; text-decoration: none; margin: 0 15px;">Contact</a>
+            </nav>
+        </div>
+    </header> --> 
+    <!--? Ye mane is liye banaya ye dekhane ke liye agr table ki jaga hame header banana hu to ase bane ga jo ab modern html me use huta he  -->
+    
+    <!-- End Header Section  -->
+    <!-- Agar aap outer table ke styles dekhna chahte hain, to aapko td ya th tags zaroor lagane chahiye. Isse outer table ka structure sahi se define hoga aur uska background color aur border visible hoga. -->
+    <!--Agar aap outer table mein <td> tags nahi lagate hain, to outer table ka structure alag hota hai, aur uska background color aur border visible nahi hote. Isse nested table ka content alag se dikhta hai, lekin wo outer table ke andar hota hai. Isliye, agar aap outer table ke andar content nahi daalte, to outer table ka appearance alag hota hai aur wo nested table se visually alag lagta hai. Outer table ka appearance tabhi visible hoga jab aap usme <td> ya <th> tags use karenge.  -->
+
+    <!-- Start Home Section -->
+
+    <table>
+        <tr>
+            <td>
+                <br><br><br><br>
+                <table width="85%" border="0" align="center" cellpadding="15" id="homeSection">
+                    <tr>
+                    
+                        <td width="40%">
+                            <h1>
+                                <Font size="7">Hii</Font>
+                            </h1>
+                            <h1>
+                                <font size="6">I'm Zain Dev</font>
+                            </h1>
+                            <font size="3">My name is Zain Abid, and I am a web developer. I enjoy building websites
+                                that are easy to use and look great, using the latest technologies to create fun online
+                                experiences.
+                            </font>
+
+                            <hr>
+
+                            <!-- My CV -->
+                            <a href="assets/Zain-Abid-CV (7).pdf" target="_blank" rel="noopener" accesskey="c">
+                                <button>My CV</button>
+                            </a>
+                            <!-- Agar aap <a> tag ko <button> ke andar rakhte hain, to ye sahi nahi hai kyunki HTML ke rules ke mutabiq button ke andar sirf block-level elements hone chahiye. Iska sahi tareeqa ye hai: -->
+
+                            <!-- My Mail -->
+
+                            <a href="mailto: zabid590@gmail.com" accesskey="m" rel="noreferrer">
+                                <button>Hire me</button>
+                            </a>
+
+                            <!-- Agar aapka saara content ek hi <td> (table data) me hai, to ye thik hai, aur ye content ko vertically stack karega. Lekin agar aap content ko alag-alag <td> me likhte hain, to ye horizontally arrange hoga, yani saare elements ek row me aayenge. -->
+
+                        </td>
+                        <td align="right">
+                            <img src="assets/background.svg" alt="My Thumbnail"
+                            style="max-width: 400px; height: auto;">
+                        </td>
+                    </tr>
+                </table>
+                <br><br><br><br>
+            </td>
+        </tr>
+    </table>
+    <!-- End Home Section  -->
+
+    <!-- Start Service Section  -->
+
+    <table width="100%" bgcolor="#1d3557">
+
+        <tr>
+            <td>
+                <table width="85%" border="0" align="center" cellpadding="15" id="serviceSection">
+                    <br><br><br><br> <!--Ye 4 dafa is liye lekha he take jo section humne banaya he usko andr se padding mil ske ye shoro me padding de ga -->
+                    <tr align="center">
+                        <td colspan="3">
+                            <font size="6" color="#fff"><strong>Services</strong></font><br>
+
+                            <hr width="10%" align="center">
+
+                            <font size="3" color="#fff">This our Services</font>
+                        </td>
+
+                    </tr>
+                    <tr align="center">
+                        <td>
+                            <img src="assets/programmer.webp" alt="web Developer Logo" width="20%"><br><br>
+
+                            <font size="5" color="#fff">Web Development</font><br>
+
+                            <font size="3" color="#fff">Web development involves creating and maintaining websites. I build user-friendly and visually appealing websites using modern technologies.
+                            </font>
+                        </td>
+                        <td>
+                            <img src="assets/programmer.webp" alt="web Developer Logo" width="20%"><br><br>
+
+                            <font size="5" color="#fff">App Development</font><br>
+
+                            <font size="3" color="#fff">App Development involves creating and maintaining websites. I build user-friendly and visually appealing websites using modern technologies.
+                            </font>
+                        </td>
+                        <td>
+                            <img src="assets/programmer.webp" alt="web Developer Logo" width="20%"><br><br>
+
+                            <font size="5" color="#fff">Digital Marketing</font><br>
+
+                            <font size="3" color="#fff">Digital Marketing involves creating and maintaining websites. I build user-friendly and visually appealing websites using modern technologies.
+                            </font>
+                        </td>
+                    </tr>
+                </table>
+                <br><br><br><br> <!--Ye end me padding de ga-->
+            </td>
+        </tr>
+    </table>
+    <!-- End Serive Section   -->
+
+    <!-- Start Skill Section  -->
+
+    <table width="100%" >
+        <tr>
+            <td>
+                <table width="85%" border="0" cellpadding="15" align="center" id="skillSection">
+                    <br><br><br><br>
+                    <tr align="center">
+                        <td colspan="2">
+                            <font size="6">Skills</font><br>
+
+                            <hr width="10%">
+
+                            <font size="3">This is my skill</font>
+                        </td>
+
+                    </tr>
+                    <tr align="center">
+
+                        <td>
+                            <label>
+                                <font>HTML</font>
+                            </label><br>
+                            <progress value="95" max="100">95%</progress>
+                        </td>
+                        <td>
+                            <label>
+                                <font>CSS</font>
+                            </label><br>
+                            <progress value="85" max="100">85%</progress>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td>
+                            <label>
+                                <font>JavascriptL</font>
+                            </label><br>
+                            <progress value="75" max="100">75%</progress>
+                        </td>
+                        <td>
+                            <label>
+                                <font>React</font>
+                            </label><br>
+                            <progress value="65" max="100">65%</progress>
+                        </td>
+                    </tr>
+                </table>
+                <br><br><br><br>
+            </td>
+        </tr>
+    </table>
+    <!-- End Skill Section   -->
+
+    <!-- Start Team section-->
+
+    <table width="100%" bgcolor="#1d3557">
+        <tr>
+            <td>
+                <table width="85%" border="0" align="center" cellpadding="15" id="teamSection">
+                    <br><br><br><br>
+                    <tr align="center">
+                        <td colspan="3">
+                            <font size="6" color="#fff"><strong>Meet My Team</strong></font>
+
+                            <hr width="10%">
+
+                            <font size="3" color="#fff">This is my team</font>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td>
+                            <img src="assets/avatar (1).webp" alt="First Person"><br>
+                            <font size="5" color="#fff">Zain</font><br>
+                            <font size="3" color="#fff">Website Developer</font>
+                        </td>
+                        <td>
+                            <img src="assets/avatar (1).webp" alt="Second Person"><br>
+                            <font size="5" color="#fff">Shoaib</font><br>
+                            <font size="3" color="#fff">App Developer</font>
+                        </td>
+                        <td>
+                            <img src="assets/avatar (1).webp" alt="Third Person"><br>
+                            <font size="5" color="#fff">Hussnain</font><br>
+                            <font size="3" color="#fff">Digital Marketer</font>
+                        </td>
+                    </tr>
+                </table>
+                <br><br><br><br>
+            </td>
+        </tr>
+    </table>
+    <!-- End Team Section   -->
+
+    <!-- Start Register Section  -->
+    <form>    
+    <table width="100%" >
+        <tr>
+            <td>
+                <table width="30%" cellpadding="15" border="0" align="center" id="registerSection">
+                    <br><br><br><br>
+                    <tr align="center">
+                        <td colspan="2">
+                            <font size="6"><strong>
+                                    <font >Register</font>
+                                </strong></font>
+                            <hr align="center" width="30%">
+                        </td>
+                    </tr>
+
+                    <!-- Name Input Row  -->
+                    <tr>
+                        <td align="right">
+                            <label for="name">
+                                <font>Name:</font>
+                            </label>
+
+                        <td>
+                            <input type="text" name="name" id="name" placeholder="Enter Your Name">
+                        </td>
+                    </tr>
+
+                    <!-- Phone Number Input Row  -->
+                    <tr>
+                        <td align="right">
+                            <label for="phone">
+                                <font >Phone:</font>
+                            </label>
+                        </td>
+                        <td>
+                            <input type="tel" id="phone" placeholder="+92XXXXXXXXXX" pattern="\+92[0-9]{10}" required>
+
+                                         <!-- Pattern explanation -->
+                            <!--1: +: \+ ka matlab hai ke + symbol zaroor shamil hona chahiye. Backslash \ yahan + ko as a character define karne ke liye use hota hai kyun ke regular expression mein + ka apna aik special meaning hota hai. -->
+                            <!--2: 92: Yeh sirf country code 92 ko represent kar raha hai, jo Pakistani numbers ke liye specific hai. -->
+                            <!--3: [0-9]{10}: [0-9]{10} ka matlab hai ke iske baad exactly 10 digits hone chahiye (0 se 9 tak ke numbers). -->
+                        </td>
+                    </tr>
+
+                    <!-- Email Input Row  -->
+                    <tr>
+                        <td align="right">
+                            <label for="email">
+                                <font>Email:</font>
+                            </label>
+                        </td>
+                        <td>
+                            <input type="email" id="email" name="email" placeholder="example@domain.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+
+                                             <!-- Pattern explanation -->
+                            <!--1: [a-z0-9._%+-]+: Shuru mein lowercase letters, numbers, aur kuch special characters jese . _ % + -. -->
+                            <!--2: @: Yeh symbol email mein hona chahiye. -->
+                            <!--3: [a-z0-9.-]+: @ ke baad domain name hona chahiye (letters, numbers aur kuch special characters jese . ya -). -->
+                            <!--4: \.[a-z]{2,}$: Domain ke baad . aur phir at least 2 letters ka domain extension hona chahiye (jese .com, .net, etc.).  -->
+                        </td>
+                    </tr>
+
+                    <!-- Password Input Row  -->
+                    <tr>
+                        <td align="right">
+                            <label for="password">
+                                <font>Password:</font>
+                            </label>
+                        </td>
+                        <td>
+                            <input type="password" id="password" name="password" placeholder="Enter your password"
+                                   pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}" required>
+
+                                           <!-- Pattern explanation -->
+                            <!-- 1: (?=.*[a-z]): Kam az kam ek lowercase letter hona chahiye. -->
+                            <!-- 2: (?=.*[A-Z]): Kam az kam ek uppercase letter hona chahiye. -->
+                            <!-- 3: (?=.*\d): Kam az kam ek number hona chahiye. -->
+                            <!-- 4: (?=.*[@$!%*?&]): Kam az kam ek special character hona chahiye jese @, $, !, %, *, ?, &. -->
+                            <!-- 5: [A-Za-z\d@$!%*?&]{8,}: Total password length kam az kam 8 characters hon. -->
+                        </td>
+                    </tr>
+                    
+                    <!-- Message Input Row  -->
+                    <tr>
+                        <td align="right">
+                            <label for="message">
+                                <font>Message:</font>
+                            </label>
+                        </td>
+                        <td>
+                            <textarea name="mesage" id="message" rows="5"
+                                placeholder="If you have any question then type message"></textarea>
+                        </td>
+                    </tr>
+
+                    <!-- Submit Button Row  -->
+                    <tr align="center">
+                        <td colspan="2">
+                            <input type="submit" value="Submit">
+                        </td>
+                    </tr>
+                </table>
+                <br><br><br><br>
+            </td>
+        </tr>
+    </table>
+</form>
+    <!-- End Register Section   -->
+
+    <!-- Start Footer Contact Section -->
+
+    <table width="100%" bgcolor="#1d3557">
+        <tr>
+            <td>
+                <table width="85%" border="0" cellpadding="15" align="center" id="contactSection">
+                    <br><br><br><br>
+                    <tr align="center">
+                        <td colspan="3">
+                            <font size="6"><strong>
+                                    <font color="white">Contact Me</font>
+                                </strong></font>
+                            <hr align="center" width="10%">
+                        </td>
+                    </tr>
+
+                    <tr align="center">
+                        <td>
+                            <img src="assets/telephone (1).webp" alt="My Telephone Number" width="25%"><br>
+                            <font size="6" color="#fff">Phone No</font><br>
+
+                            <a href="tel: +923011365056" rel="noopener">
+                                <font size="5" color="#fff">+923011365056</font>
+                            </a>
+                    
+                        </td>
+                        <td>
+                            <img src="assets/gmail-_1_.webp" alt="My Email" width="25%"><br>
+                            <font size="6" color="#fff">Email Us</font><br>
+
+                            <a href="mailto: zabid590@gmail.com" rel="nofollow">
+                                <font color="#fff" size="5">zabid590@gmail.com</font>
+                            </a>
+                           
+                        </td>
+                        <td>
+                            <img src="assets/google-maps.webp" alt="My Location" width="25%"><br>
+                            <font size="6" color="#fff">Location</font><br>
+
+                            <a href="https://maps.app.goo.gl/Ebgodoo2GDt4b7tX7" target="_blank" rel="noopener">
+                                <font size="5" color="#fff">Faislabad</font>
+                            </a>
+                        </td>
+
+                    </tr>
+                   
+                </table>
+                
+            </td>
+        </tr>
+        <tr align="center" bgcolor="#000">
+            <td colspan="" ><font color="#fff" >&copy; CopyRight 2024 | Zain Dev </font></td>
+        </tr>
+        
+    </table>
+    <!-- End footer Contact Section -->
+
+    
+
+
+
+</body>
+
+</html>
